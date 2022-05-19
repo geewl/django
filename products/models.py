@@ -21,7 +21,7 @@ class Drink(models.Model):
     allergy_drink = models.ManyToManyField('Allergy')
 
     class Meta:
-        db_table = 'products'
+        db_table = 'drinks'
 
 class Size(models.Model):
     name             = models.CharField(max_length = 45)
